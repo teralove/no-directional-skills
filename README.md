@@ -33,4 +33,4 @@ but you'll need to swap out either skill-prediction or no-directional-skills to 
 - EventEmitter2, an implementation of the EventEmitter module found in Node.js.(https://github.com/asyncly/EventEmitter2)
 
 
-[![ScreenShot](http://i.imgur.com/nIWqQDZ.mp4)](http://i.imgur.com/nIWqQDZ.mp4)
+Click here to see preview: (http://i.imgur.com/nIWqQDZ.mp4)
