@@ -1,14 +1,13 @@
+**!!! NOT COMPATIBLE WITH SKILL-PREDICTION !!!**
+
+
 # No Directional Skills
 
 Removes directional input on some skills, makes them work like the old way.
-
-
-## Important!
-
-**!!! NOT COMPATIBLE WITH SKILL-PREDICTION !!!**
-
-When you run Skill-prediction and No-directional-skills together, your skills will not work! 
-Cooldowns will activate but your characters will not actually perform their skills!
+- Archer: Backstep, Breakaway
+- Priest: Backstep, Fiery
+- Sorcerer: Backstep, Glacial
+- Lancer: Backstep
 
 
 ## How to install
@@ -22,7 +21,9 @@ This is normally where you put scripts
 
 ## Avoid Mod Conflicts
 
-gkm and EventEmitters2 folders can be left in the "tera-proxy/node_modules" folder, 
+- When you run Skill-prediction and No-directional-skills together, your skills will not work! 
+- Cooldowns will activate but your characters will not actually perform their skills!
+- gkm and EventEmitters2 folders can be left in the "tera-proxy/node_modules" folder, 
 but you'll need to swap out either skill-prediction or no-directional-skills to get either one to work properly.
 
 
@@ -31,4 +32,5 @@ but you'll need to swap out either skill-prediction or no-directional-skills to 
 - GKM, An event based, Global Keyboard and Mouse listener. (https://github.com/tomzx/gkm) 
 - EventEmitter2, an implementation of the EventEmitter module found in Node.js.(https://github.com/asyncly/EventEmitter2)
 
-![Screenshot](http://i.imgur.com/nIWqQDZ.mp4)
+
+[![ScreenShot](http://i.imgur.com/nIWqQDZ.mp4)](http://i.imgur.com/nIWqQDZ.mp4)
