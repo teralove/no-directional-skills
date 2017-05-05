@@ -1,4 +1,4 @@
-**!!! NOT COMPATIBLE WITH SKILL-PREDICTION !!!**
+### **!!! NOT COMPATIBLE WITH SKILL-PREDICTION !!!**
 
 
 # No Directional Skills
@@ -12,7 +12,7 @@ Removes directional input on some skills, makes them work like the old way.
 
 ## How to install
 
-1. Move the two folders "gkm" and "EventEmitter2" into "tera-proxy/node_modules". 
+1. Move the two folders "gkm" and "EventEmitter2" from dependencies.zip into "tera-proxy/node_modules". 
 This is where you will find folders like tera-data, etc...
 
 2. Move the folder "no-directional-skills" into "tera-proxy/bin/node_modules".

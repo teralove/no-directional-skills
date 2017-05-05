@@ -34,8 +34,8 @@ module.exports = function NoDirectionalSkills(dispatch) {
 		let w = event.w;
 		
 		/*
-		Kludge: This is really fucking ugly, but it works well enough, still not 100% though... 
-		Don't want to spend time finding an elegant solution.
+		KLUDGE: This is really fucking ugly...
+		If anyone knows how to properly calculate the w data based on character heading and camera rotation , I'd be interested.
 		*/
 		if (keyW && keyA) {
 			(w < 0) ? (w > -16384) ? w -= 24575 : w += 40973 : w -= 24575;
@@ -63,10 +63,10 @@ module.exports = function NoDirectionalSkills(dispatch) {
 		if (w < -32767) w += 65535;
 		else if (w > 32767)	w = -32768 + w;
 				
-		// just in case, if w somehow fucked up then revert w back to original value
+		// just in case, w calculation fucked up then revert it back to original value
 		if (w < -32767 || w > 32767) w = event.w;
 		
- 		dispatch.toServer('C_START_SKILL', {
+ 		dispatch.toServer('C_START_SKILL', 2, {
 			skill:event.skill,
 			w: w,
 			x1: event.x1,
