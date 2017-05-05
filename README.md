@@ -21,10 +21,8 @@ This is normally where you put scripts
 
 ## Avoid Mod Conflicts
 
-- When you run Skill-prediction and No-directional-skills together, your skills will not work! 
-- Cooldowns will activate but your characters will not actually perform their skills!
-- gkm and EventEmitters2 folders can be left in the "tera-proxy/node_modules" folder, 
-but you'll need to swap out either skill-prediction or no-directional-skills to get either one to work properly.
+- When you run Skill-prediction and No-directional-skills together, your directional skills will not work! Cooldowns will activate but your character will not actually perform their skills.
+- gkm and EventEmitters2 folders can be left in the "tera-proxy/node_modules" folder, but you'll need to swap out either skill-prediction or no-directional-skills to get either one to work properly.
 
 
 ## Dependencies:
