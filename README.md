@@ -6,6 +6,8 @@ Removes directional input on some skills, makes them work like the old way.
 - Sorcerer: Backstep, Glacial
 - Lancer: Backstep
 
+See preview: (http://i.imgur.com/nIWqQDZ.mp4)
+
 
 ## How to install
 
@@ -22,6 +24,10 @@ This is normally where you put scripts
 - EventEmitter2, an implementation of the EventEmitter module found in Node.js.(https://github.com/asyncly/EventEmitter2)
 
 
-Click here to see preview: (http://i.imgur.com/nIWqQDZ.mp4)
+## Changelog 
+### 1.1
+* [+] Compatbile with [Skill Prediction](https://github.com/pinkipi/skill-prediction)
+* [+] Works for all skill levels
+
 
 HUGE Special Thanks to [Pinkie Pie](https://github.com/pinkipi) for compatibility and fixes!
