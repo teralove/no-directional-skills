@@ -23,3 +23,5 @@ This is normally where you put scripts
 
 
 Click here to see preview: (http://i.imgur.com/nIWqQDZ.mp4)
+
+HUGE Special Thanks to [Pinkie Pie](https://github.com/pinkipi) for compatibility and fixes!
