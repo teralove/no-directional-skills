@@ -1,4 +1,4 @@
-//vers 1.0
+//vers 1.1
 
 let gkm = require('gkm');
 
@@ -24,7 +24,7 @@ module.exports = function NoDirectionalSkills(dispatch) {
 	};
 
 	dispatch.hook('S_LOGIN', 2, (event) => {
-		job = (model - 10101) % 100
+		job = (event.model - 10101) % 100
 
 		if(!hooked && (hooked = true))
 			gkm.events.on('key.*', function(data) {
