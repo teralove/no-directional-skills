@@ -3,8 +3,9 @@
 Removes directional input on some skills, makes them work like the old way.
 - Archer: Backstep, Breakaway
 - Priest: Backstep, Fiery
-- Sorcerer: Backstep, Glacial
+- Sorcerer: Backstep, Glacial, Jaunt
 - Lancer: Backstep
+- Mystic: Jaunt
 
 See preview: (http://i.imgur.com/nIWqQDZ.mp4)
 
@@ -25,6 +26,8 @@ This is normally where you put scripts
 
 
 ## Changelog 
+### 1.2
+* [+] Added Teleport Jaunt for Sorcerer and Mystic
 ### 1.1
 * [+] Compatbile with [Skill Prediction](https://github.com/pinkipi/skill-prediction)
 * [+] Works for all skill levels

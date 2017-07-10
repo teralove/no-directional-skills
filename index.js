@@ -1,4 +1,4 @@
-//vers 1.1
+//vers 1.2
 
 let gkm = require('gkm');
 
@@ -19,7 +19,11 @@ module.exports = function NoDirectionalSkills(dispatch) {
 		],
 		4: [ // Sorcerer
 			7, // Backstep
-			18 // Glacial Retreat
+			18, // Glacial Retreat
+			26 // Jaunt
+		],
+		7: [ // Mystic
+			17 // Jaunt
 		]
 	};
 
