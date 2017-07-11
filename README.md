@@ -7,7 +7,7 @@ Removes directional input on some skills, makes them work like the old way.
 - Priest: Backstep, Fiery
 - Sorcerer: Backstep, Glacial, ~~Jaunt~~
 - Lancer: Backstep
-~~- Mystic: Jaunt~~
+- ~~Mystic: Jaunt~~
 
 See preview: (http://i.imgur.com/nIWqQDZ.mp4)
 
