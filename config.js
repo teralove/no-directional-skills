@@ -6,8 +6,8 @@
 module.exports = {
 	0: { // Warrior
 		1: true, // Combo Attack
-		2: false, // Evasive Roll
-		41: false, // Aerial Scythe
+		2: true, // Evasive Roll
+		41: true, // Aerial Scythe
  	},
 	1: { // Lancer
 		1: true, // Combo Attack
@@ -15,7 +15,7 @@ module.exports = {
 	},
 	2: { // Slayer
 		1: true, // Combo Attack
-		4: false, // Evasive Roll
+		4: true, // Evasive Roll
 	},
 	3: { // Berserker
 		1: true, // Combo Attack
