@@ -1,16 +1,7 @@
-# No Directional Skills
-
-**Bug: Not working for jaunts**
-
-Removes directional input on some skills, makes them work like the old way.
-- Archer: Backstep, Breakaway
-- Priest: Backstep, Fiery
-- Sorcerer: Backstep, Glacial, ~~Jaunt~~
-- Lancer: Backstep
-- ~~Mystic: Jaunt~~
+# no-directional-skills
+Removes directional input on many skills. See config.js to customize skill list.
 
 See preview: (http://i.imgur.com/nIWqQDZ.mp4)
-
 
 ## How to install
 
@@ -27,12 +18,22 @@ This is normally where you put scripts
 - EventEmitter2, an implementation of the EventEmitter module found in Node.js.(https://github.com/asyncly/EventEmitter2)
 
 
-## Changelog 
-### 1.2
-* [+] ~~Added Teleport Jaunt for Sorcerer and Mystic~~
-### 1.1
-* [+] Compatbile with [Skill Prediction](https://github.com/pinkipi/skill-prediction)
-* [+] Works for all skill levels
+## Changelog
+<details>
+
+    1.30
+    - Updated protocol versions
+    - Incorporated Mister-Kay's branch
+    - Added new alternative direction (forwards)
+    1.20
+    - Added Teleport Jaunt for Sorcerer and Mystic
+    1.11
+    - Compatible with Skill Prediction
+    - Works for all skills levels
+
+</details>
+
+---
 
 
-HUGE Special Thanks to [Pinkie Pie](https://github.com/pinkipi) for compatibility and fixes!
+Special Thanks to [Pinkie Pie](https://github.com/pinkipi) and [Mister-Kay](https://github.com/Mister-Kay)
