@@ -19,7 +19,7 @@ module.exports = {
     },
     3: { // Berserker
         1: true, // Combo Attack
-        24: true, // Evasive Smash
+//        24: true, // Evasive Smash
         29: true, // Evasive Roll
     },
     4: { // Sorcerer

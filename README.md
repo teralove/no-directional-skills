@@ -21,6 +21,8 @@ This is normally where you put scripts
 ## Changelog
 <details>
 
+    1.31
+    - Removed Berserker's Evasive Smash.
     1.30
     - Updated protocol versions
     - Incorporated Mister-Kay's branch
