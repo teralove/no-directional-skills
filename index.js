@@ -20,7 +20,7 @@ module.exports = function NoDirectionalSkills(dispatch) {
     dispatch.hook('C_START_SKILL', 5, {order: -9999}, (event) => {
         const skill = Math.floor((event.skill - 0x4000000) / 10000);
         
-        if(Skills[job] && Skills[job][skill] != undefined && event.moving)
+        if(Skills[job] && Skills[job][skill] != undefined)
         {
             if(keyA) event.w -= keyW ? (Math.PI / 4 * 3) : keyS ? Math.PI / 4 : Math.PI / 2;
             else if(keyD) event.w += keyW ? (Math.PI * 3 / 4) : keyS ? Math.PI / 4 : Math.PI / 2;
