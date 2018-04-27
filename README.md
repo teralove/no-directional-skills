@@ -5,11 +5,11 @@ See preview: (http://i.imgur.com/nIWqQDZ.mp4)
 
 ## How to install
 
-1. Move the two folders "gkm" and "EventEmitter2" from dependencies.zip into "tera-proxy/node_modules". 
-This is where you will find folders like tera-data, etc...
+1. Unzip dependencies.zip and move the two folders "gkm" and "EventEmitter2" into "tera-proxy/node_modules". 
+This is where you will find folders like tera-data, etc.
 
-2. Move the folder "no-directional-skills" into "tera-proxy/bin/node_modules".
-This is normally where you put scripts
+2. Move "index.js" and "config.js" into a folder called "no-directional-skills" in "tera-proxy/bin/node_modules".
+This is where you normally put scripts.
 
 
 ## Dependencies:
@@ -21,6 +21,8 @@ This is normally where you put scripts
 ## Changelog
 <details>
 
+    1.32
+    - Fix: Skills casting in wrong direction when not moving
     1.31
     - Removed Berserker's Evasive Smash.
     1.30
